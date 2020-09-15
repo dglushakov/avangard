@@ -24,7 +24,7 @@ SECRET_KEY = 'z1(*%q7s26okdr76ld^n=7tj5je$am198(&=&%u-bb+#&-$b5h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tb-web', 'localhost', '127.0.0.1']
 
 # Application definition
 
