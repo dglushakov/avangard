@@ -9,3 +9,7 @@ class IconAR2NS(models.Model):
 
     def __str__(self):
         return 'Icon' + str(self.icon_ip)
+
+    class Meta:
+        verbose_name = "Icon"
+        verbose_name_plural = "Icons"

@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import IconAR2NS
 
-# Register your models here.
+admin.site.register(IconAR2NS)
