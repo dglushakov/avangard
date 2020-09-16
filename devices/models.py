@@ -5,10 +5,10 @@ from django.db import models
 
 class IconAR2NS(models.Model):
     icon_ip = models.CharField(max_length=40)
-    icon_creation_date = models.DateTimeField()
+    icon_creation_date = models.DateTimeField(blank=True, null=True)
 
     def __str__(self):
-        return 'Icon' + str(self.icon_ip)
+        return 'Icon ' + str(self.icon_ip)
 
     class Meta:
         verbose_name = "Icon"
