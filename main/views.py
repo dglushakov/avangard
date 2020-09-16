@@ -5,4 +5,6 @@ from django.http import HttpResponse
 # Create your views here.
 
 def homepage(request):
-    return HttpResponse("pythonprogramming.net homepage! Wow so #amaze.")
+    return render(request=request,
+                  template_name='main/home.html',
+                  context={"data": "data"})

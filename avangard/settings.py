@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ['tb-web', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'main.apps.MainConfig',
     'devices.apps.DevicesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
